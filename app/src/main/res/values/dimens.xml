@@ -1,0 +1,34 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="mtrl_space_12">12.0dip</dimen>
+    <dimen name="mtrl_space_16">16.0dip</dimen>
+    <dimen name="mtrl_space_24">24.0dip</dimen>
+    <dimen name="mtrl_space_36">36.0dip</dimen>
+    <dimen name="mtrl_space_4">4.0dip</dimen>
+    <dimen name="mtrl_space_48">48.0dip</dimen>
+    <dimen name="mtrl_space_56">56.0dip</dimen>
+    <dimen name="mtrl_space_6">6.0dip</dimen>
+    <dimen name="mtrl_space_64">64.0dip</dimen>
+    <dimen name="mtrl_space_72">72.0dip</dimen>
+    <dimen name="mtrl_space_8">8.0dip</dimen>
+
+    <dimen name="story_album_height">100.0dip</dimen>
+    <dimen name="story_comment_edit_height">192.0dip</dimen>
+    <dimen name="story_comment_toolbar_layout_height">148.0dip</dimen>
+    <dimen name="story_cover_size">86.0dip</dimen>
+    <dimen name="story_dialog_comment_offset">120.0dip</dimen>
+    <dimen name="story_dialog_footer_height">200.0dip</dimen>
+    <dimen name="story_edit_cover_size">134.0dip</dimen>
+    <dimen name="story_horizontal_cover_width">134.0dip</dimen>
+    <dimen name="story_list_cover_width">86.0dip</dimen>
+    <dimen name="story_toolbar_menu_height">178.0dip</dimen>
+    <dimen name="story_toolbar_menu_width">138.0dip</dimen>
+
+    <dimen name="avatar_character">72.0dip</dimen>
+    <dimen name="avatar_dialog">30.0dip</dimen>
+    <dimen name="avatar_follow_size">40.0dip</dimen>
+    <dimen name="avatar_self_size">56.0dip</dimen>
+</resources>

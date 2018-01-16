@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bg_story_dialog_weixin_aside_night" android:state_activated="true" />
+    <item android:drawable="@drawable/bg_story_dialog_weixin_aside_light" />
+</selector>

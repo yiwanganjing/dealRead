@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="60dp"
+        android:scrollbars="vertical" />
+
+    <include layout="@layout/include_story_toolbar"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/story_auto_read_view"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/story_dialog_footer_height"
+        android:layout_gravity="bottom"
+        android:scaleType="center"
+        android:src="@drawable/ic_auto_read_pause"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/story_click_guide"
+        android:layout_width="160.0dip"
+        android:layout_height="124.0dip"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/mtrl_space_36"
+        android:src="@drawable/ic_story_guide"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/mtrl_space_4"
+        android:layout_gravity="bottom"
+        android:indeterminateOnly="false"
+        android:progressDrawable="@drawable/progress_story_dialog" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_behavior=".view.behavior.DetailFragmentBehavior"/>
+
+    <FrameLayout
+        android:id="@+id/dialog_comment_fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">dialogRead</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="dialog_comment_title">关于此条评论</string>
+</resources>

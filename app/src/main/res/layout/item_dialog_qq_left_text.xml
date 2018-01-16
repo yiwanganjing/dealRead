@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/avatar_view"
+        android:layout_width="@dimen/avatar_dialog"
+        android:layout_height="@dimen/avatar_dialog"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/mtrl_space_12"
+        android:layout_marginTop="@dimen/mtrl_space_6"
+        app:placeholderImage="@drawable/placeholder_avatar_30"
+        app:placeholderImageScaleType="centerCrop"
+        app:roundAsCircle="true" />
+
+    <TextView
+        android:id="@+id/name_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="52.0dip"
+        android:layout_marginTop="@dimen/mtrl_space_6"
+        android:singleLine="true"
+        android:textColor="#ff888888"
+        android:textSize="10.0sp" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/mtrl_space_6"
+        android:layout_marginLeft="@dimen/mtrl_space_48"
+        android:layout_marginRight="68.0dip"
+        android:layout_marginTop="22.0dip"
+        android:background="@drawable/bg_story_dialog_qq_left_text"
+        android:lineSpacingMultiplier="1.4"
+        android:paddingBottom="@dimen/mtrl_space_12"
+        android:paddingLeft="@dimen/mtrl_space_16"
+        android:paddingRight="@dimen/mtrl_space_16"
+        android:paddingTop="@dimen/mtrl_space_12"
+        android:textColor="@color/story_dialog_qq_left_text"
+        android:textSize="15.0sp" />
+
+    <FrameLayout
+        android:layout_width="68.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/text_view"
+        android:layout_alignRight="@+id/text_view"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="-3.0dip"
+        android:layout_marginRight="-60.0dip">
+
+        <TextView
+            android:id="@+id/dialog_comment_count"
+            android:layout_width="28.0dip"
+            android:layout_height="20.0dip"
+            android:background="@drawable/bg_dialog_comment_count_grey_selector"
+            android:gravity="center"
+            android:textColor="@color/textColorWhite"
+            android:textSize="10.0sp"
+            android:visibility="gone" />
+    </FrameLayout>
+</RelativeLayout>

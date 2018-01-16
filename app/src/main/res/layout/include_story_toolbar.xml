@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/storyToolbarLight"
+    android:theme="@style/ToolbarTheme">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="?selectableItemBackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/mtrl_space_4"
+        android:paddingLeft="@dimen/mtrl_space_56"
+        android:paddingRight="@dimen/mtrl_space_56">
+
+        <TextView
+            android:id="@+id/story_title_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/textColorBlack"
+            android:textSize="14.0sp" />
+
+        <TextView
+            android:id="@+id/story_collection_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/textColorGrey50"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cancel"
+        style="@style/ToolbarTheme.Button.Navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:scaleType="center"
+        android:src="@drawable/ic_arrow_back_black_24" />
+
+    <ImageView
+        android:id="@+id/more"
+        style="@style/ToolbarTheme.Button.Navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right"
+        android:scaleType="center"
+        android:src="@drawable/ic_more_black_24" />
+</FrameLayout>

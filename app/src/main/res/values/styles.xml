@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ToolbarTheme.ToolbarStyle" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="android:minHeight">?actionBarSize</item>
+        <item name="maxButtonHeight">?actionBarSize</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/AppTheme">
+        <item name="android:textColorSecondary">@color/textColorGrey</item>
+        <item name="toolbarStyle">@style/ToolbarTheme.ToolbarStyle</item>
+        <item name="toolbarNavigationButtonStyle">@style/ToolbarTheme.Button.Navigation</item>
+        <item name="colorControlHighlight">#33666666</item>
+    </style>
+
+    <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="@style/Base.Widget.AppCompat.Toolbar.Button.Navigation" />
+
+    <style name="ToolbarTheme.Button.Navigation" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">@dimen/mtrl_space_48</item>
+    </style>
+
+    <style name="AppTheme.Story" parent="@style/AppTheme">
+        <item name="android:windowBackground">@color/windowBackgroundGrey200</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="470dp"
+    android:layout_marginLeft="@dimen/mtrl_space_12"
+    android:layout_marginRight="@dimen/mtrl_space_12"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_comment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/read_popover_floor_left"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dialog_comment_title"
+                android:textColor="@color/textColorGrey" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bg_item_comment_line" />
+
+        <FrameLayout
+            android:id="@+id/ll_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_item_comment_fill">
+
+            <ListView
+                android:id="@+id/list_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@drawable/bg_item_comment_line"
+                android:dividerHeight="0.4dp"
+                android:scrollbars="none"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/empty_view"
+                layout="@layout/widget_empty_dialog_comment"
+                android:visibility="visible" />
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bg_item_comment_line" />
+
+        <FrameLayout
+            android:id="@+id/add_comment_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/mtrl_space_48"
+            android:background="@drawable/bg_item_comment_send">
+
+            <TextView
+                android:id="@+id/add_comment_text_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="@dimen/mtrl_space_56"
+                android:background="@null"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingBottom="@dimen/mtrl_space_12"
+                android:paddingLeft="@dimen/mtrl_space_16"
+                android:paddingRight="@dimen/mtrl_space_16"
+                android:paddingTop="@dimen/mtrl_space_12"
+                android:text="说点什么"
+                android:textColor="@color/textColorGrey50"
+                android:textSize="15.0sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="20dp"
+                android:text="发送"
+                android:textColor="#0BC5AE"
+                android:textSize="15.0sp" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mtrl_space_64"
+        android:layout_alignParentBottom="true"
+        android:background="@color/transparent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close_dialog_comment" />
+    </LinearLayout>
+
+</LinearLayout>

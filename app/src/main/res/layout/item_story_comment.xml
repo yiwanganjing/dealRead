@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginTop="10.0dip"
+        android:orientation="horizontal">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/avatar_view"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="14.0dip"
+            app:actualImageScaleType="fitCenter"
+            app:placeholderImage="@drawable/placeholder_avatar_30"
+            app:placeholderImageScaleType="fitCenter"
+            app:roundAsCircle="true" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="13dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/name_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/mtrl_space_16"
+                    android:layout_marginTop="@dimen/mtrl_space_6"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:includeFontPadding="false"
+                    android:lineSpacingMultiplier="1.2"
+                    android:maxLines="1"
+                    android:text="一只乌鸦"
+                    android:textColor="#666666"
+                    android:textSize="12.0sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/send_time_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="@dimen/mtrl_space_6"
+                android:ellipsize="end"
+                android:includeFontPadding="false"
+                android:lineSpacingMultiplier="1.2"
+                android:maxLines="1"
+                android:text="20分钟前"
+                android:textColor="#A6A9AD"
+                android:textSize="8.0sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_content_reply"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/mtrl_space_12"
+            android:layout_marginLeft="52dp"
+            android:layout_marginRight="@dimen/mtrl_space_16"
+            android:layout_marginTop="@dimen/mtrl_space_4"
+            android:lineSpacingMultiplier="1.2"
+            android:text="我这里有好看的头像"
+            android:textColor="#58595d"
+            android:textSize="13.0sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

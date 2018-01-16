@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/mtrl_space_6"
+        android:layout_marginLeft="@dimen/mtrl_space_16"
+        android:layout_marginRight="@dimen/mtrl_space_16"
+        android:layout_marginTop="@dimen/mtrl_space_6"
+        android:background="@drawable/bg_story_dialog_weixin_aside"
+        android:lineSpacingMultiplier="1.5"
+        android:minHeight="@dimen/mtrl_space_36"
+        android:paddingBottom="10.0dip"
+        android:paddingLeft="@dimen/mtrl_space_16"
+        android:paddingRight="@dimen/mtrl_space_16"
+        android:paddingTop="10.0dip"
+        android:textColor="@color/story_dialog_weixin_aside"
+        android:textSize="14.0sp" />
+</FrameLayout>

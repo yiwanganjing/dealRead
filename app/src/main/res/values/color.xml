@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="textColorBlack">#ff111111</color>
+    <color name="textColorBlack200">#ff333333</color>
+    <color name="textColorBlue">#ff27c2fc</color>
+    <color name="textColorBlueDark">#ff0d7dfb</color>
+    <color name="textColorCyan">#ff39c6d2</color>
+    <color name="textColorCyanDark">#ff158f99</color>
+    <color name="textColorDarkCyan">#ff085a60</color>
+    <color name="textColorDarkCyan100">#ff063a3e</color>
+    <color name="textColorGrey">#ff666666</color>
+    <color name="textColorGrey100">#ffb2b2b2</color>
+    <color name="textColorGrey150">#ffd2d2d2</color>
+    <color name="textColorGrey200">#ffe1e1e1</color>
+    <color name="textColorGrey300">#fff4f4f4</color>
+    <color name="textColorGrey400">#fff9f9f9</color>
+    <color name="textColorGrey50">#ff999999</color>
+    <color name="textColorShareLottery">#fffffbc6</color>
+    <color name="textColorWhite">#ffffffff</color>
+    <color name="textColorYellow">#fff7d243</color>
+
+    <color name="storyPopupLight">#fafcfcfc</color>
+    <color name="storyPopupNight">#fa0c0c0c</color>
+    <color name="storyToolbarLight">#fafcfcfc</color>
+    <color name="storyToolbarNight">#fa1b1b1b</color>
+
+    <color name="windowBackground">#ffffffff</color>
+    <color name="windowBackgroundBlack">#ff222222</color>
+    <color name="windowBackgroundGrey">#fff5f5f5</color>
+    <color name="windowBackgroundGrey200">#ffecedf1</color>
+
+    <color name="color_G0">#ff333333</color>
+    <color name="color_G1">#ff666666</color>
+    <color name="color_G2">#ff808080</color>
+    <color name="color_G3">#ff999999</color>
+    <color name="color_G4">#ffbfbfbf</color>
+    <color name="color_G5">#ffe5e5e5</color>
+    <color name="color_G6">#ffdfdfdf</color>
+    <color name="color_G7">#fffafafa</color>
+    <color name="color_G8">#fdfdfd</color>
+
+    <color name="color_G9">#2A2F38</color>
+    <color name="color_G10">#21242C</color>
+    <color name="color_G11">#15171E</color>
+    <color name="white">#ffffff</color>
+
+    <color name="tr">#ff67778b</color>
+    <color name="transparent">#00000000</color>
+</resources>
